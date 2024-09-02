@@ -1,0 +1,236 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #4285F4; /* Google Blue */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+/* Navigation bar styling */
+.navbar {
+    border-bottom: 2px solid #34A853; /* Google Green */
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E0E0E0;
+}
+
+/* Hero section styling */
+#hero {
+    background-color: #34A853; /* Google Green */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#hero p {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+}
+
+#hero .btn-success {
+    background-color: #0F9D58; /* Slightly darker Green */
+    border-color: #0F9D58;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+#hero .btn-success:hover {
+    background-color: #0D8B48;
+    border-color: #0D8B48;
+}
+
+/* About section styling */
+#about {
+    background-color: #F9F9F9; /* Light Grey */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #4285F4; /* Google Blue */
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Benefits section styling */
+#benefits {
+    background-color: #FFFFFF; /* White */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#benefits h2 {
+    color: #DB4437; /* Google Red */
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#benefits li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#benefits .btn-danger {
+    background-color: #DB4437; /* Google Red */
+    border-color: #DB4437;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+#benefits .btn-danger:hover {
+    background-color: #C1351D;
+    border-color: #C1351D;
+}
+
+/* Join section styling */
+#join {
+    background-color: #FFEB3B; /* Google Yellow */
+    color: #333;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#join h2 {
+    color: #F57F17; /* Darker Yellow */
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+#join p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#join ol {
+    list-style-type: decimal;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+#join li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#join .btn-success {
+    background-color: #0F9D58; /* Google Green */
+    border-color: #0F9D58;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+#join .btn-success:hover {
+    background-color: #0D8B48;
+    border-color: #0D8B48;
+}
+
+/* Contact section styling */
+#contact {
+    background-color: #F9F9F9; /* Light Grey */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #4285F4; /* Google Blue */
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#contact a {
+    color: #4285F4; /* Google Blue */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4285F4; /* Google Blue */
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    #hero {
+        padding: 40px 10px;
+    }
+
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+}

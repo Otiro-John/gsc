@@ -1,0 +1,159 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4; /* Light Gray */
+    color: #333; /* Dark Gray */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header {
+    background-color: #4285F4; /* Google Blue */
+    color: #FFFFFF; /* White */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #FFFFFF; /* White */
+    padding: 4rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+.hero-content h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #FFFFFF; /* White */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #34A853; /* Google Green */
+}
+
+.btn-primary:hover {
+    background-color: #2C8F4E; /* Darker Green */
+}
+
+.btn-secondary {
+    background-color: #EA4335; /* Google Red */
+}
+
+.btn-secondary:hover {
+    background-color: #D93025; /* Darker Red */
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: #FFFFFF; /* White */
+    border-radius: 8px;
+    text-align: center;
+}
+
+section h2 {
+    color: #4285F4; /* Google Blue */
+    margin-bottom: 1rem;
+}
+
+ul, ol {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+footer {
+    background-color: #FBBC05; /* Google Yellow */
+    color: #FFFFFF; /* White */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    #hero {
+        padding: 2rem 1rem;
+        height: auto;
+    }
+
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .btn-primary, .btn-secondary {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+}
